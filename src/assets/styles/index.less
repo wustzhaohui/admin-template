@@ -10,3 +10,146 @@ body,
         background: rgba(255, 255, 255, 0.3);
     }
 }
+.fs10 {
+    font-size: @fs10;
+}
+.fs12 {
+    font-size: @fs12;
+}
+.fs14 {
+    font-size: @fs14;
+}
+.fs16 {
+    font-size: @fs16;
+}
+.fs18 {
+    font-size: @fs18;
+}
+.fs20 {
+    font-size: @fs20;
+}
+.fs22 {
+    font-size: @fs22;
+}
+.fs24 {
+    font-size: @fs24;
+}
+.fs26 {
+    font-size: @fs26;
+}
+.fs28 {
+    font-size: @fs28!important;
+}
+.fs30 {
+    font-size: @fs30;
+}
+.fs32 {
+    font-size: @fs32;
+}
+.fs34 {
+    font-size: @fs34;
+}
+.fs36 {
+    font-size: @fs36;
+}
+.fs38 {
+    font-size: @fs38;
+}
+.fs40 {
+    font-size: @fs40;
+}
+.fs42 {
+    font-size: @fs42;
+}
+.fs44 {
+    font-size: @fs44;
+}
+.fs46 {
+    font-size: @fs46;
+}
+.fs48 {
+    font-size: @fs48;
+}
+.fs50 {
+    font-size: @fs50;
+}
+.fs52 {
+    font-size: @fs52;
+}
+.fs54 {
+    font-size: @fs54;
+}
+.fs56 {
+    font-size: @fs56;
+}
+.fs58 {
+    font-size: @fs58;
+}
+.fs60 {
+    font-size: @fs60;
+}
+
+// padding 和 margin
+@l4: 4px;
+.loop( @count ) when ( @count > 0 ) {
+    .m-@{count} {
+        margin: (@count * @l4) !important;
+    }
+    .m-t-@{count} {
+        margin-top: (@count * @l4) !important;
+    }
+    .m-b-@{count} {
+        margin-bottom: (@count * @l4) !important;
+    }
+    .m-l-@{count} {
+        margin-left: (@count * @l4) !important;
+    }
+    .m-r-@{count} {
+        margin-right: (@count * @l4) !important;
+    }
+    .p-@{count} {
+        padding: (@count * @l4) !important;
+    }
+    .p-t-@{count} {
+        padding-top: (@count * @l4) !important;
+    }
+    .p-b-@{count} {
+        padding-bottom: (@count * @l4) !important;
+    }
+    .p-l-@{count} {
+        padding-left: (@count * @l4) !important;
+    }
+    .p-r-@{count} {
+        padding-right: (@count * @l4) !important;
+    }
+    .loop((@count - 1));
+}
+.loop(20);
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.fwb {
+    font-weight: bold;
+}
+.text- {
+    &left {
+        text-align: left;
+    }
+    &right {
+        text-align: right;
+    }
+    &center {
+        text-align: center;
+    }
+}
+.cursor {
+    cursor: pointer;
+}
+.word-wrap {
+    word-break: break-all;
+}

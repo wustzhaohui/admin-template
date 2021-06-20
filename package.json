@@ -60,6 +60,7 @@
     "react-app-polyfill": "^2.0.0",
     "react-dev-utils": "^11.0.3",
     "react-dom": "^17.0.2",
+    "react-particles-js": "^3.4.1",
     "react-redux": "^7.2.4",
     "react-refresh": "^0.8.3",
     "react-router": "^5.2.0",
@@ -161,9 +162,11 @@
     ]
   },
   "devDependencies": {
+    "axios": "^0.21.1",
     "history": "^5.0.0",
     "http-proxy-middleware": "^2.0.0",
     "less": "^4.1.1",
+    "query-string": "^7.0.0",
     "style-resources-loader": "^1.4.1"
   }
 }
